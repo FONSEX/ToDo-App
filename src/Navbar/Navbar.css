@@ -1,0 +1,28 @@
+.Navbar {
+    width: 100%;
+    opacity: .5;
+    background-color: #273F35;
+    
+    
+  }
+
+ 
+  
+  .Navbar__brand {
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .Navbar__brand-logo {
+    max-height: 64px;
+    max-width: 64px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem ;
+  }
