@@ -15,7 +15,7 @@ function TodoSearch() {
       
     <input
       className="TodoSearch"
-      placeholder="Busca algo...  "    // &#x1F50D; deberia colocarle el icon?
+      placeholder="Search something...  "    // &#x1F50D; deberia colocarle el icon?
       value={searchValue}
       onChange={onSearchValueChange}
     />

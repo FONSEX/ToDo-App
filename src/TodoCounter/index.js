@@ -6,7 +6,7 @@ function TodoCounter() {
   const { totalTodos, completedTodos } = React.useContext(TodoContext);
   
   return (
-    <h3 className="TodoCounter">Completado {completedTodos} de {totalTodos} </h3>
+    <h3 className="TodoCounter"> {completedTodos} of {totalTodos} Completed </h3>
   );
 }
 
